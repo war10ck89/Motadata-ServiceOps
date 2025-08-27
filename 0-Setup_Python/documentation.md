@@ -117,3 +117,39 @@ set "PKGLIST=%BASEDIR%packages.txt"
 * 2 — Not running as admin for an All-Users install
 * 3 — Python executable not found after install (check python_install.log)
 * Other — Return code from the Python installer
+
+# Test Python Installation
+> To verify that the python setup is done correctly run the packaged python code - python_validate.py
+>```
+> py -3 python_validate.py
+>```
+## EXPECTED OUTPUT
+```
+C:\Program\python.exe D:\7-CODE\motadata-serviceops\0-Setup_Python\python_validate.py 
+Actual environment location may have moved due to redirects, links or junctions.
+  Requested location: "C:\Users\SNEHAS~1\AppData\Local\Temp\pyval_venv_bqskp0q4\venv\Scripts\python.exe"
+  Actual location:    "C:\Users\Snehashis Paul\AppData\Local\Temp\pyval_venv_bqskp0q4\venv\Scripts\python.exe"
+=====================================================================================================
+Python Installation Validation Report
+-----------------------------------------------------------------------------------------------------
+Python version                      OK     ✅ CPython 3.13.7 (64-bit) on Windows-10-10.0.19045-SP0
+                                              Executable: C:\Program\python.exe
+Python dir in PATH (this session)   WARN   ⚠️ Not found: C:\Program
+Python executable reachable         OK     ✅ Python 3.13.7
+Windows py launcher                 OK     ✅ Python 3.13.7
+Env vars that can break installs    WARN   ⚠️ PYTHONPATH=D:\7-CODE\motadata-serviceops\0-Setup_Python
+pip module import                   OK     ✅ pip 25.2
+pip CLI                             OK     ✅ pip 25.2 from C:\Program\Lib\site-packages\pip (python 3.13)
+SSL trust / HTTPS                   OK     ✅ HTTP 200
+Internet reachability (PyPI CDN)    OK     ✅ HTTP 200
+Write access to USER_SITE           OK     ✅ C:\Users\Snehashis Paul\AppData\Roaming\Python\Python313\site-packages
+System site-packages (pure/plat)    OK     ✅ C:\Program\Lib\site-packages
+                                              C:\Program\Lib\site-packages
+Venv creation + pip                 OK     ✅ pip 25.2 from C:\Users\SNEHAS~1\AppData\Local\Temp\pyval_venv_bqskp0q4\venv\Lib\site-packages\pip (python 3.13)
+-----------------------------------------------------------------------------------------------------
+Summary: OK=10  WARN=2  FAIL=0
+=====================================================================================================
+
+Process finished with exit code 0
+
+>```
