@@ -1,0 +1,15 @@
+[2025-08-27 19:50:01] [INFO] Op Code = GAS
+[2025-08-27 19:50:01] [INFO] Operation = Configure Code Config Data
+[2025-08-27 19:50:09] [ERROR] URL must not end with '/'
+[2025-08-27 19:50:12] [INFO] Captured URL: http://172.16.12.119
+[2025-08-27 19:50:15] [INFO] Captured Port: 443
+[2025-08-27 19:50:19] [INFO] Captured Username: integration
+[2025-08-27 19:50:23] [INFO] Captured Password: Pa55w0rd
+[2025-08-27 19:50:34] [INFO] Captured Basic Authorization: Basic SW50ZWdyYXRpb24tY2xpZW50OlBLdFZ4b2tFTGZhbnYza0tBV0xq
+[2025-08-27 19:50:40] [INFO] Captured API Key: Apikey s%2Bi32Ao54bKfFwiK%40XKDM5D2XNQpe4i%2FUB3eK8mWOcseqp3rDyaQ%3D
+[2025-08-27 19:50:40] [INFO] Final Base URL: http://172.16.12.119
+[2025-08-27 19:50:41] [INFO] Ping success. Avg reply time: 2.50 ms
+[2025-08-27 19:50:41] [INFO] HTTP latency to base URL: 233.17 ms
+[2025-08-27 19:50:42] [ERROR] Credential validation failed. HTTP status: -1; payload: {'error': 'HTTPError', 'detail': 'HTTP Error 401: '}
+[2025-08-27 19:50:42] [INFO] SUMMARY | URL=http://172.16.12.119 | SSLValid=NA | Accessibility=Reachable | LatencyMs=233.17 | Username=integration | BasicAuth=Basic SW50ZWdyYXRpb24tY2xpZW50OlBLdFZ4b2tFTGZhbnYza0tBV0xq | ApiKey=Apikey s%2Bi32Ao54bKfFwiK%40XKDM5D2XNQpe4i%2FUB3eK8mWOcseqp3rDyaQ%3D | Credentials=Not OK
+[2025-08-27 19:50:42] [INFO] EXECUTION END: ABORT

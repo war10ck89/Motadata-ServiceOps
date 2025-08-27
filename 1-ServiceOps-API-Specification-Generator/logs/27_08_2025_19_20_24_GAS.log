@@ -1,0 +1,12 @@
+[2025-08-27 19:20:24] [INFO] Op Code = GAS
+[2025-08-27 19:20:24] [INFO] Operation = Configure Code Config Data
+[2025-08-27 19:20:38] [INFO] Captured URL: https://172.16.12.119
+[2025-08-27 19:20:41] [ERROR] Unhandled error: name 'validate_port' is not defined
+Traceback (most recent call last):
+  File "D:\7-CODE\motadata-serviceops\1-ServiceOps-API-Specification-Generator\v2.py", line 506, in run
+    self.collect_inputs()  # all inputs logged to FILE (plain text)
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\7-CODE\motadata-serviceops\1-ServiceOps-API-Specification-Generator\v2.py", line 641, in collect_inputs
+    self.port = validate_port(raw)
+                ^^^^^^^^^^^^^
+NameError: name 'validate_port' is not defined

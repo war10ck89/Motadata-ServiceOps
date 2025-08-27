@@ -1,0 +1,19 @@
+[2025-08-27 19:23:30] [INFO] Op Code = GAS
+[2025-08-27 19:23:30] [INFO] Operation = Configure Code Config Data
+[2025-08-27 19:23:43] [INFO] Captured URL: https://172.16.12.119
+[2025-08-27 19:23:45] [INFO] Captured Port: 443
+[2025-08-27 19:23:49] [INFO] Captured Username: automation
+[2025-08-27 19:23:55] [INFO] Captured Password: Pa55w0rd
+[2025-08-27 19:24:17] [INFO] Captured Basic Authorization: Basic SW50ZWdyYXRpb24tY2xpZW50OlBLdFZ4b2tFTGZhbnYza0tBV0xq
+[2025-08-27 19:24:32] [INFO] Captured API Key: Apikey s%2Bi32Ao54bKfFwiK%40XKDM5D2XNQpe4i%2FUB3eK8mWOcseqp3rDyaQ%3D
+[2025-08-27 19:24:32] [INFO] Final Base URL: https://172.16.12.119
+[2025-08-27 19:24:33] [DEBUG] SSL validity check failed: SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1032)
+[2025-08-27 19:24:34] [INFO] Ping success. Avg reply time: 4.00 ms
+[2025-08-27 19:24:34] [INFO] HTTP latency to base URL: 18.92 ms
+[2025-08-27 19:24:35] [INFO] Credentials validated successfully (access_token received).
+[2025-08-27 19:24:35] [INFO] SUMMARY | URL=https://172.16.12.119 | SSLValid=No | Accessibility=Reachable | LatencyMs=18.92 | Username=automation | BasicAuth=Basic SW50ZWdyYXRpb24tY2xpZW50OlBLdFZ4b2tFTGZhbnYza0tBV0xq | ApiKey=Apikey s%2Bi32Ao54bKfFwiK%40XKDM5D2XNQpe4i%2FUB3eK8mWOcseqp3rDyaQ%3D | Credentials=OK
+[2025-08-27 19:24:35] [INFO] Backed up existing config to: D:\7-CODE\motadata-serviceops\1-ServiceOps-API-Specification-Generator\backup\27-Aug-2025-19_24-GAS\config.properties
+[2025-08-27 19:24:35] [INFO] Emptied existing config.properties.
+[2025-08-27 19:24:35] [INFO] Wrote configuration to: D:\7-CODE\motadata-serviceops\1-ServiceOps-API-Specification-Generator\config.properties
+[2025-08-27 19:24:35] [INFO] Config File Configured
+[2025-08-27 19:24:35] [INFO] EXECUTION END: SUCCESS
